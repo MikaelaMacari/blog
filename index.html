@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Blog Mihaela Macari | Cum faci un site </title>
+
+    <!-- Bootstrap -->
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/animated.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+          <div class="col-xs-3"> <img src="img/logo.png" alt="Logo" width="30px"></div>
+          <div class="col-xs-9">Blog Mihaela.M</div>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+           
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Acasă</a></li>
+           
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list-alt" aria-hidden="true"></i> Categorii<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Categorie 1</a></li>
+                <li><a href="#">Categorie 2</a></li>
+              
+              </ul>
+            </li>
+            
+             <li><a href="contacte.html"><i class="fa fa-phone" aria-hidden="true"></i> Contacte</a></li>
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+   <div class="jumbotron">
+       <div class="container">
+           <div id="details" class="animated fadeInLeft">
+               <h1><span>Blog</span> Mihaela.M</h1>
+               <p>Descriere Blog. Descriere Prescurtată...</p>
+           </div>
+       </div>
+       <img src="img/top_image.jpg" alt="Top Image">
+   </div>
+   <section>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8">
+                   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="img/slider1.jpg" alt="Slide 1">
+                          <div class="carousel-caption">
+                            This is heading for slider 1
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/slider2.jpg" alt="Slide 2">
+                          <div class="carousel-caption">
+                            This is heading for slider 2
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img src="img/slider3.jpg" alt="Slide 3">
+                          <div class="carousel-caption">
+                            This is heading for slider 3
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/slider2.jpg" alt="Slide 4">
+                          <div class="carousel-caption">
+                            This is heading for slider 4
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    
+                    <div class="post">
+                        <div class="row">
+                            <div class="col-md-2 post-date">
+                                <div class="day">18</div>
+                                <div class="month">Ianuarie</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="col-md-8 post-title">
+                               <a href="#"><h2>Titlu postare 1</h2></a> 
+                               <p>Scris de: <span>Mihaela Macari</span></p>
+                            </div>
+                            <div class="col-md-2 profile-picture">
+                                <img src="img/profile.jpg" alt="Imagine de Profil" class="img-circle">
+                            </div>
+                        </div>
+                        <a href="#"><img src="img/slider1.jpg" alt="Imagine Postare"></a>
+                        <p class="desc">
+                            Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii '60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum.
+                        </p>
+                        <a href="#" class="btn btn-primary">Citește mai mult...</a>
+                        <div class="bottom">
+                            <span class="first"><i class="fa fa-folder" aria-hidden="true"></i><a href="#"> Categorie</a></span> | 
+                            <span class="sec"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comentează</a></span>
+                        </div>
+                    </div>
+                    
+                    <div class="post">
+                        <div class="row">
+                            <div class="col-md-2 post-date">
+                                <div class="day">18</div>
+                                <div class="month">Ianuarie</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="col-md-8 post-title">
+                               <a href="#"><h2>Titlu postare 2</h2></a> 
+                               <p>Scris de: <span>Mihaela Macari</span></p>
+                            </div>
+                            <div class="col-md-2 profile-picture">
+                                <img src="img/profile.jpg" alt="Imagine de Profil" class="img-circle">
+                            </div>
+                        </div>
+                        <a href="#"><img src="img/slider1.jpg" alt="Imagine Postare"></a>
+                        <p class="desc">
+                            Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii '60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum.
+                        </p>
+                        <a href="#" class="btn btn-primary">Citește mai mult...</a>
+                        <div class="bottom">
+                            <span class="first"><i class="fa fa-folder" aria-hidden="true"></i><a href="#"> Categorie</a></span> | 
+                            <span class="sec"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comentează</a></span>
+                        </div>
+                    </div>
+                    
+                    <div class="post">
+                        <div class="row">
+                            <div class="col-md-2 post-date">
+                                <div class="day">18</div>
+                                <div class="month">Ianuarie</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="col-md-8 post-title">
+                               <a href="#"><h2>Titlu postare 3</h2></a> 
+                               <p>Scris de: <span>Mihaela Macari</span></p>
+                            </div>
+                            <div class="col-md-2 profile-picture">
+                                <img src="img/profile.jpg" alt="Imagine de Profil" class="img-circle">
+                            </div>
+                        </div>
+                        <a href="#"><img src="img/slider1.jpg" alt="Imagine Postare"></a>
+                        <p class="desc">
+                            Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii '60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum.
+                        </p>
+                        <a href="#" class="btn btn-primary">Citește mai mult...</a>
+                        <div class="bottom">
+                            <span class="first"><i class="fa fa-folder" aria-hidden="true"></i><a href="#"> Categorie</a></span> | 
+                            <span class="sec"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comentează</a></span>
+                        </div>
+                    </div>
+                    
+                                     
+                    <nav id="pagination">
+                      <ul class="pagination">
+                        <li>
+                          <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                          <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                    
+               </div>
+               <div class="col-md-4">
+                   <div class="widgets">
+                       <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search for...">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                          </span>
+                        </div><!-- /input-group -->
+                       </div><!-- widgets close -->
+                       
+                       <div class="widgets">
+                       <div class="popular">
+                           <h4>Postări Populare</h4>
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                  <a href="#"> <img src="img/slider1.jpg" alt="Imagine 1"></a>
+                                </div>   
+                               <div class="col-xs-8 details">
+                                   <a href="#"><h4>This is heading for post</h4></a>
+                                   <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 ianuarie 2019</p>
+                               </div>
+                           </div>
+                           
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                   <a href="#"> <img src="img/slider1.jpg" alt="Imagine 1"></a>
+                                </div>   
+                               <div class="col-xs-8 details">
+                                  <a href="#"><h4>This is heading for post</h4></a>
+                                   <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 ianuarie 2019</p>
+                               </div>
+                           </div>
+                           
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                   <a href="#"> <img src="img/slider1.jpg" alt="Imagine 1"></a>
+                                </div>   
+                               <div class="col-xs-8 details">
+                                 <a href="#"><h4>This is heading for post</h4></a>
+                                   <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 ianuarie 2019</p>
+                               </div>
+                           </div>
+                           
+                       </div></div><!-- widgets close -->
+                       
+                       <div class="widgets">
+                       <div class="popular">
+                           <h4>Postări Recente</h4>
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                  <a href="#"> <img src="img/slider1.jpg" alt="Imagine 1"></a>
+                                </div>   
+                               <div class="col-xs-8 details">
+                                   <a href="#"><h4>This is heading for post</h4></a>
+                                   <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 ianuarie 2019</p>
+                               </div>
+                           </div>
+                           
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                   <a href="#"> <img src="img/slider1.jpg" alt="Imagine 1"></a>
+                                </div>   
+                               <div class="col-xs-8 details">
+                                  <a href="#"><h4>This is heading for post</h4></a>
+                                   <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 ianuarie 2019</p>
+                               </div>
+                           </div>
+                           
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                   <a href="#"> <img src="img/slider1.jpg" alt="Imagine 1"></a>
+                                </div>   
+                               <div class="col-xs-8 details">
+                                 <a href="#"><h4>This is heading for post</h4></a>
+                                   <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 ianuarie 2019</p>
+                               </div>
+                           </div>
+                           
+                       </div></div><!-- widgets close -->
+                       
+                     <div class="widgets">
+                       <div class="popular">
+                           <h4>Categorii</h4>
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-6">
+                                   <ul>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                   </ul>
+                               </div>
+                               <div class="col-xs-6">
+                                   <ul>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                       <li><a href="">categorie</a></li>
+                                   </ul>
+                               </div>
+                           </div>                           
+                       </div>
+                    </div><!-- widgets close -->
+                    
+                    <div class="widgets">
+                       <div class="categories">
+                           <h4>Rețele Sociale</h4>
+                           <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                   <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                               </div>
+                               <div class="col-xs-4">
+                                   <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                               </div>
+                               <div class="col-xs-4">
+                                   <a href="#"><img src="img/googleplus.png" alt="Google Plus"></a>
+                               </div>
+                           </div>
+                           
+                        <hr>
+                           <div class="row">
+                               <div class="col-xs-4">
+                                   <a href="#"><img src="img/linkedin.png" alt="Linked"></a>
+                               </div>
+                               <div class="col-xs-4">
+                                   <a href="#"><img src="img/skype.png" alt="Skype"></a>
+                               </div>
+                               <div class="col-xs-4">
+                                   <a href="#"><img src="img/googleplus.png" alt="Google Plus"></a>
+                               </div>
+                           </div>
+                                                    
+                       </div>
+                    </div><!-- widgets close -->
+                       
+                    
+               </div>
+           </div>
+       </div>
+   </section>
+   <footer>
+       <div class="container">
+           Copyright &copy; by Mihaela Macari. All Rights Reserved.
+       </div>
+   </footer>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
